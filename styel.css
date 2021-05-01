@@ -1,0 +1,78 @@
+html{
+scroll-behavior: smooth;
+}
+
+
+
+.header{
+    background-color: black;
+}
+.header-logo img{
+    width: 220px;
+}
+.primary-menu{}
+.primary-menu ul{ margin-bottom: 0;
+    text-align: right;
+    list-style: none;
+
+}
+.primary-menu ul li{display: inline-block;
+margin-left: 10px;}
+.primary-menu ul li a{ display: inline block;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 70px;
+    border: 1px solid #fff;
+    transition: .5s;
+    text-decoration: none;
+}
+.primary-menu ul li:first-child a{
+    border: 1px solid white;
+}
+.primary-menu ul li a:hover{ background-color: skyblue;
+color: black;}
+.banner{
+    background-image: url("https://i.ibb.co/TWcJ7Jr/1318eb93ae04fdce16c6bb64188fd29f.jpg");
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.about{
+    background-color: #ecf0f1;
+}
+.service{
+    background-color: #ddd;
+    padding: auto;
+}
+img{max-width: 100%;
+    margin-top: 20px;
+}
+.product-item p{
+
+    font-size: 18px;
+}
+.product-right{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.footer{
+    background-color: #2c3e50;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
+
